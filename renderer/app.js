@@ -1,8 +1,5 @@
-console.log(window.api);
-
 document.getElementById("btn").onclick = () => {
     alert(window.api.hello());
-    // alert("Hello world");
 };
 
 document.getElementById("insertBtn").onclick = () => {
