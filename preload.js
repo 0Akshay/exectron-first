@@ -4,5 +4,5 @@ const db = require(path.join(__dirname, "database", "db"));
 
 contextBridge.exposeInMainWorld("api", {
     hello: () => "Hello from Electron",
-    addUser: () => "User added"
+    addUser: (name) => db.addUser(name)
 });
