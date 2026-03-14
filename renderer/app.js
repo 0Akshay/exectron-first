@@ -7,5 +7,5 @@ document.getElementById("btn").onclick = () => {
 
 document.getElementById("insertBtn").onclick = () => {
     const id = window.api.addUser("Akshay");
-    alert("Inserted user with id " + id);
+    alert("Added user: " + id);
 }

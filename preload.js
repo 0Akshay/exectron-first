@@ -1,5 +1,6 @@
 const { contextBridge } = require("electron");
 
 contextBridge.exposeInMainWorld("api", {
-    hello: () => "Hello from Electron"
+    hello: () => "Hello from Electron",
+    addUser: () => "User added"
 });
